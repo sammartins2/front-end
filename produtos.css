@@ -1,0 +1,62 @@
+header{
+    background: #bbbbbb;
+    padding: 20px 0; /*espaçamento interno no cabeçalho*/
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 110px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px; /** espacamento entre texto **/
+}
+
+nav a{
+    text-transform: uppercase; /** deixar o texto todo maisculo, sem precidar colocar o codigo "gritando" **/
+    color: #000000; /** cor do texto **/
+    font-weight: bold; /** deixar em negrito o texto **/
+    font-size: 22px; /** tamanho da fonte **/
+    text-decoration: none; /** tirar o sublinhado **/
+}
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center; /*texto centralizado*/
+    width: 30%;
+    vertical-align: top;
+    background: #cccccc;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold; /*texto em negrito*/
+}
+
+.produto-descricao{
+    font-size: 18px;
+}
+
+.produto-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
